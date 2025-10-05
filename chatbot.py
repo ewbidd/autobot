@@ -59,11 +59,20 @@ try:
     TAVILY_API_KEY_LOADED = st.secrets["TAVILY_API_KEY"]
 except KeyError:
     TAVILY_API_KEY_LOADED = None
+    
+try:
+    GEMINI_API = st.secrets["GEMINI_API"]
+except KeyError:
+    GEMINI_API = None
 
 with st.sidebar:
-    st.header("⚙️ Konfigurasi Agen")
-    
-    google_api_key = st.text_input("🔑 Google AI API Key (Gemini)", type="password")
+    st.header("""
+              AutoBOT
+            * [Instagram](https://www.instagram.com/a_bidillah)
+            * [Github](https://github.com/ewbidd)
+            * [LinkedIn](https://linkedin.com/in/muhammad-abidillah)""")
+
+    google_api_key = GEMINI_API
     
     st.markdown("---")
     
