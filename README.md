@@ -1,5 +1,7 @@
 # 💬 AutoBOT
 
+Active link: https://chat-autobot.streamlit.app/
+
 A simple Streamlit Chatbot app using Gemini 2.5 Flash.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
