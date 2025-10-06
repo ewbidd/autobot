@@ -8,7 +8,7 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 # Konfigurasi Awal dan Styling
 
 st.set_page_config(
-    page_title="AutoBOT: Agen Otomotif ReAct",
+    page_title="AutoBOT",
     page_icon="🚗",
     layout="wide"
 )
